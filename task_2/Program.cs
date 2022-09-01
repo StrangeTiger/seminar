@@ -7,7 +7,7 @@ int numberB = Convert.ToInt32(Console.ReadLine());
             {
                 Console.Write("max = ");
                 Console.WriteLine(numberА);
-                Console.Write(" min = ");
+                Console.Write("min = ");
                 Console.WriteLine(numberB);
             }
             else if (numberА < numberB)
