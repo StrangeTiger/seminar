@@ -12,4 +12,3 @@ if (c > max) max = c;
 
 Console.Write("max = ");
 Console.WriteLine(max);
-
