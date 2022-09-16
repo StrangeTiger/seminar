@@ -6,7 +6,7 @@ Clear();
 WriteLine("Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.");
 
 WriteLine("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+int number = int.Parse(ReadLine());
 int sumNumber = 0;
 
 while (number != 0)
