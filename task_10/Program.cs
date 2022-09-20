@@ -1,5 +1,8 @@
 ﻿//Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 
+using static System.Console;
+Clear();
+
 Console.WriteLine("Введите трехзначное число = ");
 string Number = Console.ReadLine();
 if(Number.Length !=3)
