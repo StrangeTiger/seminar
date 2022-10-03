@@ -1,5 +1,8 @@
 ﻿// Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
 
+using static System.Console;
+Clear();
+
 Console.WriteLine("Введите число М");
 int m = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите число N");
